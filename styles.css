@@ -8,14 +8,17 @@
 body {
   max-width: 635px;
   margin: auto;
+  background-color: #E6EFF5;
 }
 
 main {
   max-width: 311px;
   margin: auto;
+  background-color: #fff;
 }
 
 /* mobile-first styling */
+/* header */
 
 
 /* Attribution styling */
