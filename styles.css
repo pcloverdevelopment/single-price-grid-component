@@ -4,6 +4,20 @@
   padding: 0;
 }
 
+/* body & main content styling */
+body {
+  max-width: 635px;
+  margin: auto;
+}
+
+main {
+  max-width: 311px;
+  margin: auto;
+}
+
+/* mobile-first styling */
+
+
 /* Attribution styling */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
