@@ -10,6 +10,7 @@ body {
   margin: auto;
   background-color: #E6EFF5;
   font-family: Karla, sans-serif;
+  font-size: 100%;
 }
 
 main {
@@ -17,14 +18,44 @@ main {
   margin: auto;
   padding: 28px 24px;
   background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(0, 81, 171, 0.15);
 }
 
 /* mobile-first styling */
+/* header */
+header {
+  margin-bottom: 32px;
+}
 
 header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2ab3b1;
+  margin-bottom: 24px;
+}
 
+header h2 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #c0df33;
+  line-height: 1.33em;
+  margin-bottom: 16px;
+}
+
+header p {
+  font-size: 14px;
+  color: #9aa7be;
+  line-height: 1.857em;
 }
 
 /* Attribution styling */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: 16px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
