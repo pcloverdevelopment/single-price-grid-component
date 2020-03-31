@@ -7,7 +7,7 @@
 /* universal styling */
 body {
   background-color: #e6eff5;
-  font-family: Karla, sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 100%;
 }
 
@@ -43,6 +43,76 @@ header p {
   color: #9aa7be;
 }
 
+/* section styles */
+section {
+  background-color: rgb(42, 179, 177);
+  padding: 1.667em;
+}
+
+section h2 {
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+section h3 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+}
+
+section h3 span {
+  font-weight: 400;
+  font-size: 0.5em;
+  color: #fff;
+  opacity: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.625em;
+}
+
+section p {
+  font-size: 1em;
+  line-height: 1.625em;
+  color: #fff;
+}
+
+section button {
+  border: none;
+  border-radius: 5px;
+  background-color: #c0df33;
+  color: #fff;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* aside styling */
+aside {
+  background-color: rgba(42, 179, 177, 0.85);
+  padding: 1.667em;
+}
+
+aside h4 {
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  line-height: 1.429em;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 75%;
+}
+
 /* mobile media query styles */
 @media only screen and (max-width: 375px) {
   main {
@@ -55,6 +125,7 @@ header p {
   font-size: 68.75%;
   text-align: center;
   margin-top: 16px;
+  clear: both;
 }
 
 .attribution a {
