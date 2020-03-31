@@ -76,6 +76,7 @@ section p {
   font-size: 1em;
   line-height: 1.625em;
   color: #fff;
+  margin-bottom: 1.625em;
 }
 
 section button {
@@ -84,6 +85,8 @@ section button {
   background-color: #c0df33;
   color: #fff;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  width: 100%;
 }
 
 /* aside styling */
