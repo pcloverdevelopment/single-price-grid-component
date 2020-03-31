@@ -4,9 +4,55 @@
   padding: 0;
 }
 
+/* universal styling */
+body {
+  background-color: #e6eff5;
+  font-family: Karla, sans-serif;
+  font-size: 100%;
+}
+
+main {
+  max-width: 635px;
+  width: 44.0972%;
+  margin: auto;
+}
+
+/* header styles */
+header {
+  background-color: #fff;
+  padding: 1.667em;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #2ab3b1;
+  margin-bottom: 1em;
+}
+
+header h2 {
+  font-weight: 700;
+  font-size: 1.125em;
+  color: #c0df33;
+  margin-bottom: 0.41667em;
+}
+
+header p {
+  font-size: 1em;
+  line-height: 1.625em;
+  color: #9aa7be;
+}
+
+/* mobile media query styles */
+@media only screen and (max-width: 375px) {
+  main {
+    width: 82.933%;
+  }
+}
+
 /* Attribution styling */
 .attribution {
-  font-size: 11px;
+  font-size: 68.75%;
   text-align: center;
   margin-top: 16px;
 }
