@@ -99,6 +99,8 @@ section button {
   color: #fff;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
   padding: 1em;
+  font-size: 1em;
+  font-family: "Karla", sans-serif;
   width: 100%;
 }
 
@@ -128,12 +130,26 @@ aside ul li a {
   text-decoration: none;
   color: #fff;
   opacity: 75%;
+  font-size: 0.875em;
 }
 
 /* mobile media query styles */
 @media only screen and (max-width: 375px) {
   #flex_container {
     display: block;
+  }
+
+  /* header */
+  header h1 {
+    font-size: 1.25em;
+  }
+
+  header h2 {
+    font-size: 0.9375em;
+  }
+
+  header p {
+    font-size: 0.875em;
   }
 }
 
