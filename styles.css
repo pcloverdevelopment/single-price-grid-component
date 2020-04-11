@@ -1,11 +1,101 @@
-/* Attribution styling */
+/* Reset styling
+______________________________________________*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General Body styling
+______________________________________________*/
+body {
+  background-color: #e6eff5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main content container styling
+______________________________________________*/
+main {
+  width: 82.933%;
+  max-width: 635px;
+  box-shadow: rgba(0, 81, 171, 0.15) 0 15px 30px 0;
+}
+
+/* Shared styling for main content
+______________________________________________*/
+header,
+section,
+aside {
+  padding: 0 24px;
+}
+
+/* Header styling
+______________________________________________*/
+header {
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 28px;
+  padding-bottom: 32px;
+}
+header h1 {
+}
+header h3 {
+  padding-top: 24px;
+}
+header p {
+  padding-top: 16px;
+}
+
+/* Signup section styling
+______________________________________________*/
+section {
+  background-color: #2ab3b1;
+  padding-bottom: 24px;
+}
+section h2 {
+  padding-top: 24px;
+}
+section h3 {
+  padding-top: 17px;
+}
+section p {
+  padding-top: 4px;
+  padding-bottom: 26px;
+}
+section button {
+  padding: 15px 102px 14px 102px;
+}
+
+/* Aside 'why us' styling
+______________________________________________*/
+aside {
+  background-color: rgba(42, 179, 177, 0.85);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+aside ul {
+  list-style: none;
+  padding-top: 17px;
+}
+aside ul li a {
+  text-decoration: none;
+}
+
+/* Attribution styling
+______________________________________________*/
 .attribution {
   font-size: 68.75%;
   text-align: center;
   margin-top: 16px;
   clear: both;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
