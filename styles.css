@@ -5,7 +5,6 @@ ______________________________________________*/
   margin: 0;
   box-sizing: border-box;
 }
-
 /* General Body styling
 ______________________________________________*/
 body {
@@ -18,7 +17,6 @@ body {
   font-size: 100%;
   font-family: "Karla", sans-serif;
 }
-
 /* Main content container styling
 ______________________________________________*/
 main {
@@ -27,7 +25,6 @@ main {
   box-shadow: rgba(0, 81, 171, 0.15) 0 15px 30px 0;
   font-size: 0.625em; /*sets font size to 10px for easy conversions*/
 }
-
 /* Shared styling for main content
 ______________________________________________*/
 header,
@@ -35,7 +32,6 @@ section,
 aside {
   padding: 0 24px;
 }
-
 /* Header styling
 ______________________________________________*/
 header {
@@ -63,7 +59,6 @@ header p {
   line-height: 1.857;
   color: #9aa7be;
 }
-
 /* Signup section styling
 ______________________________________________*/
 section {
@@ -84,7 +79,7 @@ section h2 {
 }
 #subscription_price h3 {
   font-size: 3.2em;
-  font-weight: 700px;
+  font-weight: 700;
   color: #fff;
   display: inline-block;
 }
@@ -115,7 +110,6 @@ section button {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 10px 10px 0;
 }
-
 /* Aside 'why us' styling
 ______________________________________________*/
 aside {
@@ -141,10 +135,15 @@ aside ul li a {
   color: #fff;
   opacity: 75%;
 }
-
 /* RWD Styling
 ______________________________________________*/
 @media only screen and (min-width: 450px) {
+  /* Shared styling */
+  header,
+  section,
+  aside {
+    padding: 40px;
+  }
   /* Flexbox styling */
   main {
     display: flex;
@@ -154,7 +153,6 @@ ______________________________________________*/
   /* Header */
   header {
     width: 100%;
-    padding-bottom: 40px;
   }
   header p {
     padding-top: 10px;
@@ -164,28 +162,23 @@ ______________________________________________*/
     width: 50%;
     border-radius: 0 0 0 5px;
   }
+  section h2 {
+    padding-top: 0;
+  }
   /* Aside */
   aside {
     width: 50%;
     border-radius: 0 0 5px 0;
   }
-
-  /* Shared styling */
-  header,
-  section,
-  aside {
-    padding: 40;
-  }
 }
-
 /* Attribution styling
 ______________________________________________*/
 .attribution {
   font-size: 68.75%;
   text-align: center;
   margin-top: 16px;
-  clear: both;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
