@@ -2,15 +2,16 @@
 
 ## This is one of the challenges from frontendmentor.io!
 
-For this project, and I wanted to use basic CSS.
+I use a sketch design from Frontend Mentor to work on my frontend
+skills.
 
-In this project I wanted to make sure to use HTML5 semantic elements.
+### Summary
 
-I used a Flexible Box Layout along with RWD.
-
+For this project, and I wanted to work on using flexbox.
+I also made sure to use HTML5 semantic elements.
 You can find the design in the design folder!
 
-#### Summary Techniques Used
+#### Techniques Used
 
 1. HTML5 Semantic Elements
 2. CSS3 Flexible Box Layout
