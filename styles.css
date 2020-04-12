@@ -154,8 +154,15 @@ ______________________________________________*/
   header {
     width: 100%;
   }
+  header h1 {
+    font-size: 2.4em;
+  }
+  header h3 {
+    font-size: 1.8em;
+  }
   header p {
     padding-top: 10px;
+    font-size: 1.6em;
   }
   /* Section */
   section {
@@ -170,15 +177,4 @@ ______________________________________________*/
     width: 50%;
     border-radius: 0 0 5px 0;
   }
-}
-/* Attribution styling
-______________________________________________*/
-.attribution {
-  font-size: 68.75%;
-  text-align: center;
-  margin-top: 16px;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
 }
