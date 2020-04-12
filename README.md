@@ -2,10 +2,14 @@
 
 ## This is one of the challenges from frontendmentor.io!
 
-I use a sketch design from Frontend Mentor to work on my frontend
-skills.
+I purchase a sketch design from Frontend Mentor to work on my frontend
+skills. It has all of the specs for the page for mobile and desktop design
+along with all of the necessary assets.
 
-### Summary
+Check out the FrontendMentorReadMe.md file to get a sense of what is given
+to me out of the box.
+
+### Summary of this repo
 
 For this project, and I wanted to work on using flexbox.
 I also made sure to use HTML5 semantic elements.
