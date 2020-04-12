@@ -105,7 +105,8 @@ section > p {
   color: #fff;
 }
 section button {
-  padding: 15px 102px 14px 102px;
+  padding: 15px 0 14px 0;
+  width: 100%;
   font-size: 1.6em;
   font-weight: 700;
   color: white;
@@ -139,6 +140,42 @@ aside ul li a {
   line-height: 1.429em;
   color: #fff;
   opacity: 75%;
+}
+
+/* RWD Styling
+______________________________________________*/
+@media only screen and (min-width: 450px) {
+  /* Flexbox styling */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  /* Header */
+  header {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  header p {
+    padding-top: 10px;
+  }
+  /* Section */
+  section {
+    width: 50%;
+    border-radius: 0 0 0 5px;
+  }
+  /* Aside */
+  aside {
+    width: 50%;
+    border-radius: 0 0 5px 0;
+  }
+
+  /* Shared styling */
+  header,
+  section,
+  aside {
+    padding: 40;
+  }
 }
 
 /* Attribution styling
